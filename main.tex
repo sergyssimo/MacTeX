@@ -1,4 +1,4 @@
-\documentclass[12pt,toc=chapterentrywithdots]{scrbook}
+\documentclass[12pt,toc=chapterentrywithdots,DIV=9]{scrbook}
 \clubpenalty=10000 
 \widowpenalty=10000
 \displaywidowpenalty=10000
@@ -15,12 +15,13 @@
 %\setlength{\parskip}{0.2cm}
 %\setlength{\parindent}{0.5cm}
 %\setlength{\columnsep}{1pt}
-%\setlength{\columnseprule}{1pt}
+\setlength{\columnseprule}{0.5pt}
 \usepackage{scrlayer-scrpage}
 \clearpairofpagestyles
 \automark[chapter]{chapter}
 \ihead{\footnotesize\headmark}
 \ohead{\footnotesize\pagemark}
+\raggedbottom
 
 \title{Bíblia}
 \author{Sociedade Bíblica Trinitariana do Brasil}
@@ -29,9 +30,8 @@
 \begin{document}
 
 \maketitle
-\thispagestyle{empty}
-\cleardoublepage
-
+%\cleardoublepage
+%\thispagestyle{empty}
 \frontmatter
 \tableofcontents
 
