@@ -10,11 +10,18 @@
 \usepackage{lettrine}
 %\usepackage{geometry}
 \hyphenation{bem-a-ven-tu-ra-do}
+\hyphenation{per-gun-ta-ram-lhe}
 %\geometry{left=3cm,right=3cm,top=2cm,bottom=3cm}
 %\setlength{\parskip}{0.2cm}
 %\setlength{\parindent}{0.5cm}
 %\setlength{\columnsep}{1pt}
 %\setlength{\columnseprule}{1pt}
+\usepackage{scrlayer-scrpage}
+\clearpairofpagestyles
+\automark[chapter]{chapter}
+\ihead{\footnotesize\headmark}
+\ohead{\footnotesize\pagemark}
+
 \title{Bíblia}
 \author{Sociedade Bíblica Trinitariana do Brasil}
 \thispagestyle{empty}
@@ -31,8 +38,6 @@
 \mainmatter
 
 \part{Antigo Testamento}
-
-
 \include{AT/1_genesis}
 \include{AT/2_exodo}
 \include{AT/3_levitico}
@@ -72,33 +77,34 @@
 \include{AT/37_ageu}
 \include{AT/38_zacarias}
 \include{AT/39_malaquias}
+
 \part{Novo Testamento}
-\include{NT/mateus}
-\include{NT/marcos}
-\include{NT/lucas}
-\include{NT/joao}
-% \include{NT/atos}
-% \include{NT/romanos}
-% \include{NT/1corintios}
-% \include{NT/2corintios}
-% \include{NT/galatas}
-% \include{NT/efesios}
-% \include{NT/filipenses}
-% \include{NT/colossenses}
-% \include{NT/1tessalonicenses}
-% \include{NT/2tessalonicenses}
-% \include{NT/1timoteo}
-% \include{NT/2timoteo}
-% \include{NT/tito}
-% \include{NT/filemom}
-% \include{NT/hebreus}
-% \include{NT/tiago}
-% \include{NT/1pedro}
-% \include{NT/2pedro}
-% \include{NT/1joao}
-% \include{NT/2joao}
-% \include{NT/3joao}
-% \include{NT/judas}
-% \include{NT/apocalipse}
+\include{NT/40_mateus}
+\include{NT/41_marcos}
+\include{NT/42_lucas}
+\include{NT/43_joao}
+\include{NT/44_atos}
+\include{NT/45_romanos}
+\include{NT/46_1corintios}
+\include{NT/47_2corintios}
+\include{NT/48_galatas}
+\include{NT/49_efesios}
+\include{NT/50_filipenses}
+\include{NT/51_colossenses}
+\include{NT/52_1tessalonicenses}
+\include{NT/53_2tessalonicenses}
+\include{NT/54_1timoteo}
+\include{NT/55_2timoteo}
+\include{NT/56_tito}
+\include{NT/57_filemom}
+\include{NT/58_hebreus}
+\include{NT/59_tiago}
+\include{NT/60_1pedro}
+\include{NT/61_2pedro}
+\include{NT/62_1joao}
+\include{NT/63_2joao}
+\include{NT/64_3joao}
+\include{NT/65_judas}
+\include{NT/66_apocalipse}
 
 \end{document}
